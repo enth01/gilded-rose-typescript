@@ -1,6 +1,6 @@
 import { Item, Shop } from './src/gilded_rose';
 
-const items = [];
+const items:Array<Item> = [];
 
 items.push(new Item('+5 Dexterity Vest', 10, 20));
 items.push(new Item('Aged Brie', 2, 0));
